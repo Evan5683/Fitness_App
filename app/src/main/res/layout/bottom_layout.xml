@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/id_tab_home">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/tab_home"
+            android:id="@+id/tab_iv_home"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_home"
+            android:gravity="center"
+            android:text="Home"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/id_tab_Statistics">
+
+        <ImageView
+            android:id="@+id/tab_iv_Statistics"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/tab_statistics"></ImageView>
+
+        <TextView
+            android:id="@+id/text_Statistics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Statistics"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/id_tab_Courses">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/tab_course"
+            android:id="@+id/tab_iv_Courses"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_courses"
+            android:gravity="center"
+            android:text="Courses"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/id_tab_Feed">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/tab_feed"
+            android:id="@+id/tab_iv_Feed"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_feed"
+            android:gravity="center"
+            android:text="Feed"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/id_tab_profile">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/tab_profile"
+            android:id="@+id/tab_iv_Profile"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_Profile"
+            android:gravity="center"
+            android:text="Profile"></TextView>
+    </LinearLayout>
+
+</LinearLayout>
