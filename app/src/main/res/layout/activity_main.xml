@@ -13,7 +13,7 @@
         android:layout_weight="1"
         android:id="@+id/view_Pager"
         android:background="@color/white"/>
-
+    <include layout="@layout/bottom_layout"></include>
 
 
 </LinearLayout>

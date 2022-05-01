@@ -62,7 +62,7 @@ public class BlankFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         if(rootView == null){
-            return inflater.inflate(R.layout.fragment_blank, container, false);
+            rootView = inflater.inflate(R.layout.fragment_blank, container, false);
         }
         initView();
         return rootView;

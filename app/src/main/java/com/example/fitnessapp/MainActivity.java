@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager2.widget.ViewPager2;
-
+import android.view.View.OnClickListener;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         initTabView();
         initPager();
     }
@@ -83,26 +82,31 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ivCurrent.setSelected(false);
         switch (position){
             case R.id.id_tab_home:
+                viewPager.setCurrentItem(0);
             case 0:
                 ivHome.setSelected(true);
                 ivCurrent = ivHome;
                 break;
             case R.id.id_tab_Statistics:
+                viewPager.setCurrentItem(1);
             case 1:
                 ivStatistics.setSelected(true);
                 ivCurrent = ivStatistics;
                 break;
             case R.id.id_tab_Courses:
+                viewPager.setCurrentItem(2);
             case 2:
                 ivCourse.setSelected(true);
                 ivCurrent = ivCourse;
                 break;
             case R.id.id_tab_Feed:
+                viewPager.setCurrentItem(3);
             case 3:
                 ivFeed.setSelected(true);
                 ivCurrent = ivFeed;
                 break;
             case R.id.id_tab_profile:
+                viewPager.setCurrentItem(4);
             case 4:
                 ivProfile.setSelected(true);
                 ivCurrent = ivProfile;

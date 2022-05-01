@@ -5,15 +5,19 @@
       <map>
         <entry key="..\:/Users/Daydream/AndroidStudioProjects/FitnessApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.39" />
         <entry key="..\:/Users/Daydream/AndroidStudioProjects/FitnessApp/app/src/main/res/drawable/home_background.xml" value="0.39" />
+        <entry key="..\:/Users/Daydream/AndroidStudioProjects/FitnessApp/app/src/main/res/drawable/home_black_background.xml" value="0.1885" />
         <entry key="..\:/Users/Daydream/AndroidStudioProjects/FitnessApp/app/src/main/res/drawable/home_foreground.xml" value="0.39" />
         <entry key="..\:/Users/Daydream/AndroidStudioProjects/FitnessApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.39" />
+        <entry key="..\:/Users/Daydream/AndroidStudioProjects/FitnessApp/app/src/main/res/drawable/profile_black_background.xml" value="0.1885" />
         <entry key="..\:/Users/Daydream/AndroidStudioProjects/FitnessApp/app/src/main/res/drawable/tab_bt1.xml" value="0.39" />
+        <entry key="..\:/Users/Daydream/AndroidStudioProjects/FitnessApp/app/src/main/res/drawable/tab_course.xml" value="0.1885" />
         <entry key="..\:/Users/Daydream/AndroidStudioProjects/FitnessApp/app/src/main/res/drawable/tab_home.xml" value="0.2205" />
         <entry key="..\:/Users/Daydream/AndroidStudioProjects/FitnessApp/app/src/main/res/drawable/tab_profile.xml" value="0.2205" />
+        <entry key="..\:/Users/Daydream/AndroidStudioProjects/FitnessApp/app/src/main/res/drawable/tab_statistics.xml" value="0.1885" />
         <entry key="..\:/Users/Daydream/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/activity_main.xml" value="0.4046875" />
         <entry key="..\:/Users/Daydream/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/bottom_layout.xml" value="0.4046875" />
         <entry key="..\:/Users/Daydream/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/course_layout.xml" value="0.19895833333333332" />
-        <entry key="..\:/Users/Daydream/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/fragment_blank.xml" value="0.24322916666666666" />
+        <entry key="..\:/Users/Daydream/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/fragment_blank.xml" value="0.1" />
         <entry key="..\:/Users/Daydream/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/tab_feed.xml" value="0.19895833333333332" />
         <entry key="..\:/Users/Daydream/AndroidStudioProjects/FitnessApp/app/src/main/res/mipmap-anydpi-v26/home.xml" value="0.39" />
         <entry key="..\:/Users/Daydream/AndroidStudioProjects/FitnessApp/app/src/main/res/mipmap-anydpi-v26/home_round.xml" value="0.39" />
